@@ -1,0 +1,21 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+.env/
+
+# Archivos de configuración con credenciales
+config.py
+*.token
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
