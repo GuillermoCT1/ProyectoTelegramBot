@@ -26,6 +26,11 @@ Proyecto de introducción al desarrollo de bots de Telegram utilizando Python y 
 ```bash
 python bot.py
 ```
+## Bot ID
+
+El ID de mi bot es: `@BotGuilleCT1`
+
+**Nota:** El token de acceso al bot no se encuentra aquí por razones de seguridad.
 
 ## Objetivos del Proyecto
 - Aprender conceptos básicos de desarrollo de bots
