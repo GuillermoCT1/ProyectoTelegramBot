@@ -1,14 +1,9 @@
+# bot.py
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
 from config import BOT_TOKEN
 
 # Configuración del token del bot
-BOT_TOKEN = "TU_BOT_TOKEN_AQUI"
-
-# Configurar el logging para depuración
-logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-                    level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 # Función para manejar el comando /start
 async def start(update: Update, context):
@@ -17,6 +12,7 @@ async def start(update: Update, context):
     await update.message.reply_text(
         f"Hola, {user.first_name}! Soy un bot Echo. ¡Envíame algo y te lo devolveré!"
     )
+    
 
 # Función para manejar los mensajes de texto (eco)
 async def echo(update: Update, context):
